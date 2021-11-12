@@ -1,0 +1,41 @@
+i{
+    color: #FEC89A;
+    font-size: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation-name: size;
+    animation-duration: 3s;
+    animation-delay: .5s;
+    animation-iteration-count: infinite;
+}
+@keyframes size{
+    10%{
+        font-size: 300px;
+    }
+    20%{
+       font-size: 350px;
+    }
+    30%{
+        font-size: 300px;
+    }
+    40%{
+        font-size: 350px;
+    }
+    50%{
+        font-size: 300px;
+    }
+    70%{
+        font-size: 350px;
+    }
+    80%{
+        font-size: 300px;
+    }
+    90%{
+        font-size: 350px;
+    }
+    100%{
+        font-size: 300px;
+    }
+}
