@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.style{
+    border: solid black 1px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 30px;
+}
+.clear-fix::after{
+    content: " ";
+    clear: both;
+    display: block;
+}
+body{
+    padding: 20px;
+}
+header .logo{
+    width: 20%;
+    float: left;
+    padding: 30px;
+}
+header .header{
+    width: 78%;
+    float: right;
+    padding: 30px;
+}
+.style1{
+    padding: 10px;
+}
+.photo-messaging div{
+    width: 49%;
+    float: left;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.photo-messaging div:nth-of-type(2n){
+    margin-left: 2%;
+}
+.s-sections div{
+    width: 32%;
+    float: left;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.s-sections div:nth-of-type(3n-1){
+    margin-left: 2%;
+    margin-right: 2%;
+}
